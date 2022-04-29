@@ -7,6 +7,7 @@
 #include "Customer.h"
 using namespace std;
 
+
 class CustomerList :public linkedListType<Customer>
 {
 	friend ostream& operator<<(ostream&, const CustomerList&);
@@ -20,4 +21,3 @@ public:
 	void UpdateDataFile(ofstream& file);
 };
 #endif
-
