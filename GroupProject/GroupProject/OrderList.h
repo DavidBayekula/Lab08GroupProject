@@ -1,4 +1,9 @@
+#ifndef OrderList_H
+#define OrderList_H
 #pragma once
+#include <iostream>
+#include <cstdbool>
+#include <fstream>
 #include "linkedList.h"
 #include "Order.h"
 
@@ -15,4 +20,6 @@ public:
 private:
 	void SearchOrderList(string title, bool& found, nodeType<Order>*& current) const;
 };
+#endif
+
 
